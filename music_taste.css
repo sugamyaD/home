@@ -1,0 +1,109 @@
+/*sets the background to the specified color*/
+html {
+	background-color:Gainsboro;
+	color:white;
+	font:Copperplate, fantasy;
+}
+/*formats the navigation bar at the top of the page*/
+.menu {
+	font-size:35px;
+	color:white;
+	background-color:#cc1b1b;
+	margin:25px 60px 25px 60px;
+	border:5px;
+	border-style:solid;
+	border-color:#01feff;
+}
+/*changes the "buttons" on the navigation bar to a different color when the user is hovering over it*/
+a:hover {
+	background-color:#01feff;
+	color:black;
+	text-decoration:none;
+}
+/*takes out the default underline for links*/
+a:visited, a:link, a:active {
+	text-decoration:none;
+}
+/*changes the font of the captions*/
+.caption {
+	font-family:Papyrus;
+}
+/*formats the title of the page*/
+#title {
+	display:block;
+	font-size:50px;
+	color:#343434;
+	text-align:center;
+	border:5px;
+	border-style:dotted;
+	border-color:#cc1b1b;
+	padding:5px 10px 5px 10px;
+	margin:25px 300px 25px 300px;
+}
+/*formats the box explaining what type of music i listen to listen to*/
+#weird_music {
+	width:40%;
+	height:relative;
+	background-color:#01feff;
+	float:left;
+	margin:25px;
+	padding:10px;
+	color:#343434
+}
+/*formats the box explaining my favorite genres*/
+#fav_genre {
+	width:50%;
+	height:relative;
+	background-color:#343434;
+	float:left;
+	margin:25px;
+	padding:10px;
+}
+/*formats the box explaining my favorite artists*/
+#fav_artist {
+	width:45%;
+	height:relative;
+	background-color: #343434;
+	float:left;
+	margin:25px;
+	padding:10px
+}
+/*formats the box explaining my favorite songs*/
+#fav_song {
+	width:45%;
+	height:relative;
+	background-color:#cc1b1b;
+	float:left;
+	margin:25px;
+	padding:10px;
+	color:#343434
+}
+/*formats the box with the spotify embed*/
+#spotify {
+	width:45%;
+	height:relative;
+	background:#01feff;
+	float:left;
+	margin:25px;
+	padding:10px;
+	color:#343434
+}
+/*formatting the spotify embed*/
+iframe {
+	frameborder:0;
+	allowtransparency:true;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

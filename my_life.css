@@ -1,0 +1,101 @@
+/*sets the default font color, font as well sets the background*/
+html {
+	background-color:Gainsboro;
+	color:white;
+	font:Copperplate, fantasy;
+}
+/*formats the navigation bar*/
+.menu {
+	font-family:Halvetica;
+	font-size:35px;
+	color:white;
+	background-color:#cc1b1b;
+	margin:25px 60px 25px 60px;
+	border:5px;
+	border-style:solid;
+	border-color:#01feff;
+}
+/*changes the color of the navigation when the hovers over an option*/
+a:hover {
+	background-color:#01feff;
+	color:black;
+	text-decoration:none;
+}
+/*gets rid of the default formats for links*/
+a:visited, a:link, a:active {
+	text-decoration:none;
+}
+/*changes the font of the captions*/
+.caption {
+	font-family:Papyrus;
+}
+/*formats the title*/
+#title {
+	display:block;
+	font-size:50px;
+	color:#343434;
+	text-align:center;
+	border:5px;
+	border-style:dotted;
+	border-color:#cc1b1b;
+	padding:5px 10px 5px 10px;
+	margin:25px 300px 25px 300px;
+}
+/*formats each box*/
+#first {
+	width:50%;
+	background-color:#01feff;
+	float:left;
+	margin:25px;
+	padding:10px;
+	color:#343434;
+}
+#second {
+	width:40%;
+	background-color:#343434;
+	float:right;
+	margin:25px;
+	padding:10px;
+}
+#third {
+	width:40%;
+	background-color:#cc1b1b;
+	float:left;
+	margin:25px;
+	padding:10px;
+	color:#343434;
+}
+#fourth {
+	width:50%;
+	background-color:#01feff;
+	float:right;
+	margin:25px;
+	padding:10px;
+	color:#343434;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
